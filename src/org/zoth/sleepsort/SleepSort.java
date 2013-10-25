@@ -56,7 +56,7 @@ public class SleepSort {
         @Override
         public void run() {
             try {
-                Thread.sleep(value * 1000);
+                Thread.sleep(value);
             } catch (InterruptedException e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
